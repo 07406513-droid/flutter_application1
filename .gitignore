@@ -45,3 +45,7 @@ app.*.map.json
 /android/app/release
 .idea.zip
 .idea/
+.idea.zip
+.idea/
+build/
+.dart_tool/
