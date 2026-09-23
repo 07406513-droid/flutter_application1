@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-
 import 'package:flutter_application_1/main.dart';
 
 void main() {
@@ -8,7 +7,7 @@ void main() {
     WidgetTester tester,
   ) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(HomeScreen());
+    await tester.pumpWidget(const MyApp());
 
     // Verify that the app is displayed.
     expect(find.text('Nimbus'), findsOneWidget);
